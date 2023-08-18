@@ -12,14 +12,9 @@
   justify-content: space-between;
 }
 
-.header h1 {
-  margin-left: 340px;
-}
-
 .header-list {
   display: flex;
   margin: 10px;
-  margin-right: 280px;
   justify-content: center;
   align-items: center;
 }
@@ -27,7 +22,6 @@
 .header-item {
   margin: 5px;
   flex: 1;
-  /* width: 100px; */
 }
 
 .header-item h3 {
@@ -40,21 +34,19 @@
   background-color: #2e3440;
   display: flex;
   padding: 60px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hero img {
   height: 450px;
-  margin-right: 250px;
+  margin-left: 10px;
 }
 
 .hero .hero-text {
-  margin-left: 210px;
-  margin-right: 150px;
+  margin-top: 60px;
+  width: 600px;
   display: flex;
   flex-direction: column;
-  padding: 80px;
 }
 
 .hero .hero-text h1 {
@@ -80,10 +72,10 @@
 }
 
 .second-section {
-  padding: 80px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -96,10 +88,12 @@
 .second-section .transparent-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .second-section .transparent-row .list-tile {
-  margin: 40px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -127,6 +121,8 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(248, 248, 248);
+  padding: 50px;
+  align-items: center;
 }
 
 .third-section .big-quote {
@@ -134,19 +130,15 @@
   font-weight: 300;
   font-style: italic;
   color: rgb(48, 48, 48);
-  padding-top: 140px;
-  padding-left: 380px;
-  padding-right: 380px;
-  padding-bottom: 20px;
+  max-width: 1000px;
 }
 
 .third-section .quote-person {
+  border: 2px solid red;
   font-size: 30px;
   font-weight: 700;
   color: rgb(48, 48, 48);
-  padding-bottom: 140px;
-  padding-right: 400px;
-  text-align: end;
+  align-self: flex-end;
 }
 
 .forth-section {
